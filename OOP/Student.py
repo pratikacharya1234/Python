@@ -23,7 +23,7 @@ class Student:
 
 
     def print_student_data(self):
-            print(f"\tStudent INFO \n",
+            print(f"Student INFO \n",
                   f"\tName: {self.first_name} {self.last_name}\n", 
                   f"\tStudentID {self.student_id}\n",
                   f"\temail: {self.email}")
@@ -57,7 +57,7 @@ class Student:
 #Create an Instance of the object
 waldo = Student.from_full_name("Waldo Wildcat", "Sophomore",4567)
 jane = Student("Jane", "Doe", "Senior",1233)
-john = Student("John", "Doe", "Freshman",1234)
+john = Student("John", "Doe", "Freshman")
 
 
 #print
