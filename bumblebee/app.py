@@ -13,12 +13,12 @@ keyboard.set_speed(new_speed=40)  # Increase the typing speed to 400%
 
 # Adjust typo rate.
 # The new typo rate must be a value between 0 and 100 (int or float).
-keyboard.set_typo_rate(3)  # Set typo rate to 3%
+keyboard.set_typo_rate(10)  # Set typo rate to 3%
 
 # Adjust consistency.
 # A higher consistency (0-100) increases typing speed with less delay variability.
 keyboard.set_consistency(99)  # Set consistency to 99%
 
 # Type a sample text.
-text = "Bumblebee is great."
+text = "Bumblebee is great; ."
 keyboard.type(text)  # 'text' must be a string.
